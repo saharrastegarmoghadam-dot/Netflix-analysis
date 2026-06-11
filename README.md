@@ -1,87 +1,122 @@
-# 🎬 Netflix Data Analysis
+# 🎬 Netflix Data Analysis Project
 
-## 📌 Description
+## 📌 Project Overview
 
-This project analyzes Netflix content data using Python, Pandas, and Matplotlib. The analysis explores trends in movies and TV shows, popular genres, top-producing countries, and release year patterns.
+This project analyzes Netflix movies and TV shows using Python and data visualization techniques. The goal is to explore content trends, identify patterns in Netflix's catalog, and generate business insights from the data.
 
-## 🛠️ Tools Used
+---
+
+## 📊 Key Insights
+
+- Movies represent the majority of Netflix content.
+- The United States produces the highest number of Netflix titles.
+- Content releases increased significantly after 2015.
+- A small number of directors are responsible for a large portion of available titles.
+- Drama and International Movies are among the most common genres.
+
+---
+
+## 📈 Analysis Performed
+
+- Movies vs TV Shows comparison
+- Top 10 directors analysis
+- Top 10 countries producing Netflix content
+- Content release trends by year
+- Genre distribution analysis
+- Data cleaning and preprocessing
+
+---
+
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
 - Matplotlib
-- CSV Dataset
+- Seaborn
+
+---
+
+## 📂 Dataset
+
+Netflix Titles Dataset (CSV)
+
+The dataset contains information about Netflix content, including:
+
+- Title
+- Director
+- Country
+- Release Year
+- Genre
+- Type (Movie or TV Show)
+
+---
 
 ## 📁 Project Structure
 
 ```text
 netflix-analysis/
-│
 ├── main.py
 ├── netflix_titles.csv
-└── README.md
+├── README.md
 ```
 
-## 📊 Features
-
-- Load and clean Netflix dataset
-- Analyze movie and TV show content
-- Identify most common genres
-- Analyze top-producing countries
-- Explore release year trends
-- Create data visualizations
-
-## 📈 Analysis Performed
-
-This project includes:
-
-- Top 10 genres analysis
-- Top producing countries
-- Movies vs TV Shows comparison
-- Release year trend analysis
-- Data visualization using charts
+---
 
 ## 🚀 How to Run
 
-1. Install required libraries:
+### Install Required Libraries
 
 ```bash
-pip install pandas matplotlib
+pip install pandas matplotlib seaborn
 ```
 
-2. Run the project:
+### Run the Project
 
 ```bash
 python3 main.py
 ```
 
-## 📊 Example Insights
+---
 
-The analysis helps answer questions such as:
+## 🎯 Business Value
 
-- What are the most common Netflix genres?
-- Which countries produce the most content?
-- How has Netflix content changed over time?
-- What is the distribution of Movies vs TV Shows?
+This analysis helps understand:
 
-## 💡 Skills Demonstrated
+- Content distribution across countries
+- Growth of Netflix content over time
+- Popular content categories
+- Content production trends
+
+These insights can support content strategy and business decision-making.
+
+---
+
+## 📌 Skills Demonstrated
 
 - Data Cleaning
-- Data Analysis
+- Exploratory Data Analysis (EDA)
 - Data Visualization
-- Pandas
+- Business Insight Generation
 - Python Programming
-- Business Intelligence
+- Pandas Data Analysis
 
-## 🎯 What I Learned
+---
+
+## 💡 What I Learned
 
 Through this project, I learned how to:
 
-- Work with large datasets
+- Work with real-world datasets
 - Clean and prepare data for analysis
 - Perform exploratory data analysis (EDA)
-- Create visualizations using Matplotlib
-- Extract insights from real-world data
+- Create visualizations using Matplotlib and Seaborn
+- Generate business insights from data
+- Communicate findings through data storytelling
 
-## 👨‍💻 Author
+---
 
-Sahar Rastegar Moghaddam
+## 👩‍💻 Author
+
+**Sahar Rastegar Moghaddam**
+
+Data Analysis Portfolio Project
